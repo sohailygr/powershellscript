@@ -23,8 +23,8 @@ if ($? -ne 0) {
     echo git checkout -b ${MCAFEE_REPO_BRANCH}
 }
 foreach ( $gitRepo in $MCAFEE_REPO_LIST ){
-    gitRepoPath="${MCAFEE_REPO_BASE_PATH}${gitRepo}.git"
-modules="${modules}<module>${gitRepo}</module>"
+$gitRepoPath="${MCAFEE_REPO_BASE_PATH}${gitRepo}.git"
+$modules="${modules}<module>${gitRepo}</module>"
 echo "MCAFEE_REPO_BASE_PATH=${MCAFEE_REPO_BASE_PATH}"
 echo "gitRepo=${gitRepo}"    
 #Change number 2 Add Remote alias
