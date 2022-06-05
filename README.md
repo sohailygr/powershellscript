@@ -1,0 +1,2 @@
+# powershellscript
+teamcity project
