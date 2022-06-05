@@ -7,7 +7,7 @@ echo MCAFEE_REPO_LIST=${MCAFEE_REPO_LIST}
 echo MCAFEE_REPO_BRANCH=${MCAFEE_REPO_BRANCH}
 echo MCAFEE_REPO_BASE_PATH=${MCAFEE_REPO_BASE_PATH}
 echo $WORK_DIR
-Set-Location -Path "C:\PSscripts\teamcityproject"
+Set-Location -Path "$WORK_DIR"
 echo Remove-Item mcafee
 Remove-Item mcafee -Force
 echo git init mcafee
