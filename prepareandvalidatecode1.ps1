@@ -1,13 +1,13 @@
 Get-ChildItem 
 $WORK_DIR=pwd
-$MCAFEE_REPO_LIST="aemcore"
-$MCAFEE_REPO_BRANCH="dev2"
-$MCAFEE_REPO_BASE_PATH="git\@github-lvs.corpzone.internalzone.com:asuhail/"
+$MCAFEE_REPO_LIST="code1"
+$MCAFEE_REPO_BRANCH="main"
+$MCAFEE_REPO_BASE_PATH="https://github.com/sohailygr/"
 echo MCAFEE_REPO_LIST=${MCAFEE_REPO_LIST}
 echo MCAFEE_REPO_BRANCH=${MCAFEE_REPO_BRANCH}
 echo MCAFEE_REPO_BASE_PATH=${MCAFEE_REPO_BASE_PATH}
 echo $WORK_DIR
-Set-Location -Path "C:\Users\asuhail\OneDrive - McAfee\Documents\powershell scripts"
+Set-Location -Path "C:\PSscripts\teamcityproject"
 echo Remove-Item mcafee
 Remove-Item mcafee -Force
 echo git init mcafee
